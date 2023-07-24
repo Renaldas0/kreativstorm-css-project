@@ -24,7 +24,11 @@ header {
     display: flex;
     background-color: #1f2937;
     padding-top: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 1%;
 }
 
 nav {
@@ -51,23 +55,28 @@ nav a {
     padding-top: 100px;
     background-color: #1f2937;
     padding-bottom: 80px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
 }
 
 
-.images{
-    display:flex;
+.images {
+    display: flex;
     justify-content: space-evenly;
     margin: 100px 160px;
 }
 
 
-.members{
+.members {
     height: 150px;
     width: 200px;
     border: 5px solid #074ce0;
     border-radius: 5px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .hero-header {
@@ -75,25 +84,25 @@ nav a {
     font-weight: 800;
 }
 
-#quote{
+#quote {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: #E5E7EB;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.quote-para{
+.quote-para {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 200;
     color: #1f2937;
     width: 50%;
     font-style: italic;
-    
+
 }
 
-nav{
+nav {
     width: 30%;
 }
 
@@ -105,7 +114,7 @@ nav{
     border-radius: 5px;
 }
 
-.Staff {
+.staff {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -113,12 +122,23 @@ nav{
     font-size: 30px;
 }
 
-.call-to-action{
-    display:flex;
+.quote-section {
+    position: relative;
+}
+
+.quote-header {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}
+
+.call-to-action {
+    display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .call-to-action-txt {
     display: flex;
     justify-content: space-around;
@@ -131,16 +151,16 @@ nav{
 
 }
 
-.sign-up-btn{
-    display:flex;
+.sign-up-btn {
+    display: flex;
     justify-content: center;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
-    padding-top:20px;
-    padding-bottom:20px;
-    background-color:  #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1f2937;
     color: #ffffff;
 }
