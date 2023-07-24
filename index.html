@@ -11,81 +11,86 @@
 <body>
 
     <header>
-        <h1>Header Logo</h1>
+        <h1 class="logo primary-text">Header Logo</h1>
         <nav>
             <ul>
-                <li><a href="#team">Our team</a></li>
-                <li><a href="">Sign up</a></li>
-                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#team" class="secondary-text">Our team</a></li>
+                <li><a href="" class="secondary-text">Sign up</a></li>
+                <li><a href="#contact" class="secondary-text">Contact us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="home">
-        <div class="home-text-container">
-            <h2>This website is awesome</h2>
+    <main>
+        <section  id="home" class="hero-section">
+            <div class="hero-text-container">
+                <h2 class="hero-header primary-text">This website is awesome</h2>
 
-            <p>This website has some subtext that goes here under the main title.
-            it's a smaller font and the color is a lower contrast.
+                <p class="hero-paragrapgh secondary-text">This website has some subtext that goes here under the main title.
+                it's a smaller font and the color is a lower contrast.
+                </p>
+
+                <a href="" class="sign-up-btn btn">Sign up</a>
+            </div>
+
+            <div class="hero-img-container">
+                <img src="./images/home-img.jpg" alt="" class="hero-img">
+            </div>
+        </section>
+
+        <section id="team" class="team-section">
+            <h3>About our staff</h3>
+
+            <figure>
+                <img src="./images/hr-manager.jpg" alt="">
+                    <figcaption>
+                        <p>Figure description</p>
+                    </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/senior-dev.jpg" alt="">
+                    <figcaption>
+                        <p>Figure description</p>
+                    </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/designer.jpg" alt="">
+                    <figcaption>
+                        <p>Figure description</p>
+                    </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/back-end-dev.jpg" alt="">
+                    <figcaption>
+                        <p>Figure description</p>
+                    </figcaption>
+            </figure>
+
+        </section>
+
+        <section id="quote">
+            <p class="quote-para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, assumenda aliquam? 
+                Hic perferendis eligendi optio architecto corrupti molestiae vitae aut pariatur alias aspernatur provident sequi,
+                reprehenderit numquam rerum aliquid vel.
             </p>
+            <h4>
+                <strong>-Thor</strong>
+            </h4>
+        </section>
 
-            <a href="" class="sign-up-btn">Sign up</a>
-        </div>
+        <section class="call-to-action">
+            <h5>Call to action! It's time!</h5>
+            <p>
+                Sign up for our product by clicking that button over there!
+            </p>
+            <a href="" class="sign-up-btn btn">Sign up</a>
+        </section>
 
-        <div class="home-img-container">
-            <img src="./images/home-img.jpg" alt="" class="landing-img">
-        </div>
+        <footer>
+            <span>Copyright &copy;</span>
+        </footer>
     </main>
-
-    <section id="team">
-        <h3>About our staff</h3>
-
-        <figure>
-            <img src="./images/hr-manager.jpg" alt="">
-                <figcaption>
-                    <p>Figure description</p>
-                </figcaption>
-        </figure>
-        <figure>
-            <img src="./images/senior-dev.jpg" alt="">
-                <figcaption>
-                    <p>Figure description</p>
-                </figcaption>
-        </figure>
-        <figure>
-            <img src="./images/designer.jpg" alt="">
-                <figcaption>
-                    <p>Figure description</p>
-                </figcaption>
-        </figure>
-        <figure>
-            <img src="./images/back-end-dev.jpg" alt="">
-                <figcaption>
-                    <p>Figure description</p>
-                </figcaption>
-        </figure>
-
-    </section>
-
-    <section id="quote">
-        <p class="quote-para">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, assumenda aliquam? 
-            Hic perferendis eligendi optio architecto corrupti molestiae vitae aut pariatur alias aspernatur provident sequi,
-            reprehenderit numquam rerum aliquid vel.
-        </p>
-        <h4>
-            <strong>-Thor</strong>
-        </h4>
-    </section>
-
-    <section class="call-to-action">
-        <h5>Call to action! It's time!</h5>
-        <p>
-            Sign up for our product by clicking that button over there!
-        </p>
-        <a href="" class="sign-up-btn">Sign up</a>
-    </section>
-
 </body>
 
 </html>
