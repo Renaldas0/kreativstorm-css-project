@@ -44,6 +44,11 @@ nav a {
     font-size: 18px;
 }
 
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+}
+
 .hero-header {
     font-size: 48px;
     font-weight: 800;
