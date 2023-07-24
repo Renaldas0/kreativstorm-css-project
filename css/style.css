@@ -58,8 +58,7 @@ nav a {
 .images{
     display:flex;
     justify-content: space-evenly;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 160px;
 }
 
 
