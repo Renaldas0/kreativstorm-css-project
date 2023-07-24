@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .primary-text {
@@ -17,12 +18,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1f2937;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    background-color: #1f2937;
+    padding-top: 20px;
+    justify-content: space-evenly;
 }
 
 nav {
@@ -32,7 +34,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
 }
 
@@ -46,7 +48,27 @@ nav a {
 
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    padding-top: 100px;
+    background-color: #1f2937;
+    padding-bottom: 80px;
+    justify-content: space-evenly;
+}
+
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.members{
+    height: 150px;
+    width: 200px;
+    border: 5px solid #074ce0;
+    border-radius: 5px;
+    margin-bottom:20px;
 }
 
 .hero-header {
@@ -54,17 +76,72 @@ nav a {
     font-weight: 800;
 }
 
+#quote{
+    display: flex;
+    justify-content:center;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    width: 50%;
+    font-style: italic;
+    
+}
+
+nav{
+    width: 30%;
+}
+
 .btn {
     color: #f9faf8;
+    border: 1px solid #e5e7eb;
     background-color: #3882f6;
-    padding: 5px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 
-.team-section {
-    background-color: #f9faf8;
+.Staff {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-size: 30px;
 }
 
-.call-to-action a {
+.call-to-action{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.call-to-action-txt {
+    display: flex;
+    justify-content: space-around;
     border: 1px solid #e5e7eb;
+    background-color: #3882f6;
+    width: 50%;
+    border-radius: 5px;
+    padding: 30px 20px;
+    color: #ffffff;
+
+}
+
+.sign-up-btn{
+    display:flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:  #1f2937;
+    color: #ffffff;
 }
