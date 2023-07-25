@@ -97,10 +97,8 @@ nav a {
 .contactInputs{
     display: flex;
     flex-direction: column;
-    padding-top: 35px;
-    /* border: 1px solid green; */
-    color: grey
-
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .contactInputs input{
@@ -109,10 +107,20 @@ nav a {
     width: 300px;
     height: 30px;
     color: black;
+    margin-top: 20px;
 }
 
 #message{
     height: 200px;
+}
+
+.inputsBtn{
+    margin-top: 15px;
+    background-color: #074ce0;
+    color: #f9faf8;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .contactInfoWrapper{
