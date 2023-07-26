@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.form-container {
+    height: 50vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #074ce0;
+    box-shadow: 4px 4px #a0a0a0;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+form input {
+    width: 90%;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.information-text {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+}
