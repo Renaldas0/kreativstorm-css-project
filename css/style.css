@@ -18,11 +18,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
 }
 
 header {
     display: flex;
-    background-color: #1f2937;
     padding-top: 20px;
     justify-content: space-between;
 }
@@ -53,7 +53,6 @@ nav a {
 .hero-section {
     display: flex;
     padding-top: 100px;
-    background-color: #1f2937;
     padding-bottom: 80px;
     justify-content: space-around;
 }
@@ -63,11 +62,16 @@ nav a {
     height: auto;
 }
 
+.team-header {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 30px;
+}
 
-.images {
+
+.team-image-container {
     display: flex;
     justify-content: space-evenly;
-    margin: 100px 160px;
 }
 
 
@@ -82,6 +86,11 @@ nav a {
 .hero-header {
     font-size: 48px;
     font-weight: 800;
+}
+
+.team-section {
+    background-color: #fff;
+    padding: 50px 0;
 }
 
 #quote {
@@ -116,8 +125,7 @@ nav {
 
 .staff {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px 0;
     justify-content: center;
     font-size: 30px;
 }
@@ -135,8 +143,8 @@ nav {
 .call-to-action {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #fff;
 }
 
 .call-to-action-txt {
@@ -157,10 +165,17 @@ nav {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #1f2937;
     color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    float: right;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px 10px;
+    color: #e5e7eb;
 }
