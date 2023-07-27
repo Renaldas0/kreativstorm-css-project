@@ -127,6 +127,10 @@ nav {
     cursor: pointer;
 }
 
+.btn-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .staff {
     display: flex;
     padding: 50px 0;

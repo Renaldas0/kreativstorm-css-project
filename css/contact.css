@@ -57,6 +57,10 @@ nav a {
     font-size: 18px;
 }
 
+.btn-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .disabled-link {
     cursor: not-allowed;
     pointer-events: none;
