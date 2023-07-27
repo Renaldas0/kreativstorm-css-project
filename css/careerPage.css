@@ -50,7 +50,7 @@ nav a {
     font-size: 18px;
 }
 
-.description{
+.description {
     display: flex;
     justify-content: space-evenly;
     margin-left: 50px;
@@ -58,12 +58,12 @@ nav a {
     padding-top: 50px;
 }
 
-.coding{
+.coding {
     width: 250px;
     height: 250px;
 }
 
-.text-description{
+.text-description {
     font-size: 20px;
     font-style: italic;
     text-align: justify;
@@ -72,23 +72,24 @@ nav a {
     color: #fff;
 }
 
-h1.title{
+h1.title {
     text-align: center;
     padding-top: 100px;
     font-size: 60px
 }
 
-.jobs-info{
+.jobs-info {
     background-color: #f9faf8;
 }
-.cards{
-    display:flex;
+
+.cards {
+    display: flex;
     justify-content: space-evenly;
     padding: 100px 50px;
 }
 
-.job-card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+.job-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     background-color: rgb(240, 236, 233);
     width: 35vh;
@@ -97,7 +98,7 @@ h1.title{
 }
 
 .job-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
 .txt-img {
@@ -105,17 +106,26 @@ h1.title{
     font-size: 1.4vh;
 }
 
-.card-img{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+.card-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     height: 40%;
     width: 100%;
     border-radius: 5px 5px 0 0;
 }
 
-footer{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #ffffff;
-        text-align: center;
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    float: right;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px 10px;
+    color: #e5e7eb;
 }
