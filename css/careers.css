@@ -72,10 +72,10 @@ nav a {
     color: #fff;
 }
 
-h1.title {
+.title {
     text-align: center;
     padding-top: 100px;
-    font-size: 60px
+    font-size: 50px
 }
 
 .jobs-info {

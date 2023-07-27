@@ -79,6 +79,10 @@ nav a {
     z-index: 1;
 }
 
+h2 {
+    font-size: 50px
+}
+
 .contactDetails {
     position: absolute;
     height: 80%;
