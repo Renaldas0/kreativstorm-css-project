@@ -130,6 +130,11 @@ nav {
     font-size: 30px;
 }
 
+.description-people{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .quote-section {
     position: relative;
 }
