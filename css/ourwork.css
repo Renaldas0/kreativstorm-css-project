@@ -63,6 +63,10 @@ h2 {
     font-size: 50px
 }
 
+.btn-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .project {
     height: 400px;
     display: flex;
