@@ -8,6 +8,31 @@
     text-align: justify;
 }
 
+.navbar-primary-container {
+    display: flex;
+    width: 50%;
+    margin-left: 1.5%;
+}
+
+.nav-logo {
+    height: 6vh;
+    width: auto;
+    color: white;
+    justify-content: center;
+    margin-top: -3%;
+    box-shadow: 0px 0px 0px #fff;
+    transition: ease 0.5s;
+}
+
+.nav-logo:hover {
+    box-shadow: 0px 4px 1px -1px whitesmoke;
+    cursor: pointer; 
+}
+
+.current-page {
+    box-shadow: 0px 4px 1px -1px whitesmoke;
+}
+
 .primary-text {
     color: #f9faf8;
 }
@@ -16,20 +41,13 @@
     color: #e5e7eb;
 }
 
-.contactMainText {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: bold;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
 }
 
 header {
-    height: 10vh;
     display: flex;
-    background-color: #1f2937;
     padding-top: 20px;
     justify-content: space-between;
 }
@@ -40,7 +58,9 @@ header h1 {
 
 nav {
     width: 30%;
-    margin-right: 1%;
+    margin-right: 1.8%;
+    padding-bottom: 30px;
+    margin-top: 0.5%;
 }
 
 nav ul {
@@ -55,6 +75,11 @@ a {
 
 nav a {
     font-size: 18px;
+    transition: ease 0.5s;
+}
+
+nav a:hover {
+    box-shadow: 0px 4px 1px -1px whitesmoke;
 }
 
 .btn-shadow:hover {
