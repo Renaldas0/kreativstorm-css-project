@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .contactInputs input:focus {
-    border: #074ce0 3px solid;
+    border: #3882F6 3px solid;
 }
 
 #message {
@@ -170,11 +170,12 @@ nav a:hover {
 
 .inputsBtn {
     margin-top: 15px;
-    background-color: #074ce0;
+    background-color: #3882F6;
     color: #f9faf8;
     height: 30px;
     text-align: center;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .contactInfoWrapper {
@@ -190,6 +191,7 @@ nav a:hover {
     height: 40px;
     align-items: center;
     cursor: text;
+    cursor: pointer;
 }
 
 .contactIcon {
@@ -200,9 +202,8 @@ nav a:hover {
 }
 
 .contactInfo:hover {
-    height: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.1);
 }
 
 .socialMedia {
@@ -223,10 +224,8 @@ nav a:hover {
 }
 
 .socialMediaIcon:hover {
-    width: 50px;
-    height: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.3);
 }
 
 footer {
