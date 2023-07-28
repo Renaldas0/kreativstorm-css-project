@@ -191,6 +191,7 @@ nav a:hover {
     height: 40px;
     align-items: center;
     cursor: text;
+    cursor: pointer;
 }
 
 .contactIcon {
@@ -201,9 +202,8 @@ nav a:hover {
 }
 
 .contactInfo:hover {
-    height: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.1);
 }
 
 .socialMedia {
