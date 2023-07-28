@@ -132,6 +132,10 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.inputWrapper{
+    position: relative;
+}
+
 .contactInputs {
     display: flex;
     flex-direction: column;
@@ -140,17 +144,30 @@ nav a:hover {
 }
 
 .contactInputs input {
-    border: 1px solid #1f2937;
+    border: #1f2937 1px solid;
     border-radius: 5px;
     background-color: #e5e7eb;
-    width: 300px;
     height: 30px;
+    width: 300px;
     color: black;
     margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s, 
+}
+
+.contactInputs input:focus {
+    border: #074ce0 3px solid;
 }
 
 #message {
     height: 200px;
+}
+
+#message::placeholder {
+    position: absolute; 
+    top: 10px; 
+    left: 15px; 
 }
 
 .inputsBtn {
