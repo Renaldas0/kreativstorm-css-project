@@ -26,11 +26,7 @@
 
 .nav-logo:hover {
     box-shadow: 0px 4px 1px -1px whitesmoke;
-    cursor: pointer; 
-}
-
-.current-page {
-    box-shadow: 0px 4px 1px -1px whitesmoke;
+    cursor: pointer;
 }
 
 .primary-text {
@@ -184,13 +180,13 @@ nav a:hover {
     border: none;
 }
 
-.contactInfo:hover{
-    height: 50px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+.contactInfo:hover {
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transform: translateY(-5px);
 }
 
-.socialMedia{
+.socialMedia {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -200,18 +196,18 @@ nav a:hover {
     cursor: pointer;
 }
 
-.socialMediaIcon{
+.socialMediaIcon {
     width: 30px;
     height: 30px;
-    border-radius: 20%; 
+    border-radius: 20%;
     transition: all 0.3s ease;
 }
 
-.socialMediaIcon:hover{
-    width: 50px; 
-    height: 50px; 
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-     transform: translateY(-5px);
+.socialMediaIcon:hover {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
 }
 
 footer {
