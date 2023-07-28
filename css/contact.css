@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .contactInputs input:focus {
-    border: #074ce0 3px solid;
+    border: #3882F6 3px solid;
 }
 
 #message {
@@ -170,11 +170,12 @@ nav a:hover {
 
 .inputsBtn {
     margin-top: 15px;
-    background-color: #074ce0;
+    background-color: #3882F6;
     color: #f9faf8;
     height: 30px;
     text-align: center;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .contactInfoWrapper {
