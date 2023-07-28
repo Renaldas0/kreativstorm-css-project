@@ -26,11 +26,7 @@
 
 .nav-logo:hover {
     box-shadow: 0px 4px 1px -1px whitesmoke;
-    cursor: pointer; 
-}
-
-.current-page {
-    box-shadow: 0px 4px 1px -1px whitesmoke;
+    cursor: pointer;
 }
 
 .primary-text {
@@ -109,7 +105,7 @@ nav a:hover {
 
 
 .members {
-    height:150px;
+    height: 150px;
     width: 100%;
     border: 3px solid #074ce0;
     border-radius: 5px;
