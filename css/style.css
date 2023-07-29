@@ -12,10 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar-primary-container {
+.navbar-logo-container {
     display: flex;
     width: 50%;
-    margin-left: 1.5%;
+    margin-left: 2%;
 }
 
 .nav-logo {
@@ -84,8 +84,8 @@ nav a:hover {
 
 .hero-section {
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: space-around;
 }
 
@@ -94,23 +94,30 @@ nav a:hover {
     height: auto;
 }
 
+.team-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    min-height: 400px;
+}
+
 .team-header {
     text-align: center;
     font-size: 48px;
-    padding-bottom: 30px;
 }
 
-
-.team-image-container {
+.team-card-container {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    margin-top: 60px;
 }
 
+.team-card {
+    width: 35vh;
+    height: 50vh;
+}
 
-.members {
-    height: 150px;
-    width: 100%;
+.member-img {
     border: 3px solid #074ce0;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -121,14 +128,11 @@ nav a:hover {
     font-weight: 800;
 }
 
-.team-section {
-    background-color: #fff;
-    padding-top: 50px;
-}
-
 #quote {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 400px;
     background-color: #E5E7EB;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -166,11 +170,6 @@ nav {
     padding: 50px 0;
     justify-content: center;
     font-size: 30px;
-}
-
-.team-card {
-    width: 35vh;
-    height: 50vh;
 }
 
 .quote-section {
