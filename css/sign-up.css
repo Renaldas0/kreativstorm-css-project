@@ -2,11 +2,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-}
-
-main {
-    background-color: #fff;
+    min-height: 82vh;
+    background: linear-gradient(to bottom right, rgb(255, 255, 255) 0%, #1f2937 100%);
 }
 
 .btn-shadow:hover {
@@ -14,13 +11,12 @@ main {
 }
 
 .form-container {
-    height: 50vh;
+    height: fit-content;
     background-color: #1f2937;
     padding: 20px;
     border-radius: 10px;
     border: 3px solid #074ce0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
 }
 
 .form-container h2 {
@@ -29,7 +25,7 @@ main {
     padding-bottom: 10px;
 }
 
-form p {
+p {
     text-align: center;
     padding-bottom: 5px;
 }
@@ -48,8 +44,6 @@ a {
 }
 
 footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: #ffffff;
     text-align: center;
 }
