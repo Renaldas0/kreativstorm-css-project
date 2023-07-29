@@ -46,6 +46,10 @@ body {
     background-color: #1f2937;
 }
 
+main {
+    background-color: white;
+}
+
 header {
     display: flex;
     padding-top: 20px;
@@ -103,11 +107,16 @@ h2 {
     display: flex;
     padding: 100px;
     background-color: #fff;
+    padding-left: 120px;
 }
 
 .project-description {
     width: 50%;
     padding-right: 50px;
+}
+
+h3{
+    font-size: 30px;
 }
 
 .project-img-container {
@@ -125,6 +134,18 @@ h2 {
 p {
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+#img-two{
+    margin-right: 100px;
+    padding-right: 120px;
+    padding-left: 0px;
+}
+
+#project-two{
+    background-color: #d9d9d9;
+    margin: 100px;
+    border-radius: 20px;
 }
 
 .project-btn {
