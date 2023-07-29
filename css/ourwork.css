@@ -8,6 +8,10 @@
     text-align: justify;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-primary-container {
     display: flex;
     width: 50%;
