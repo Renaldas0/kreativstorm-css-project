@@ -8,6 +8,10 @@
     text-align: justify;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-primary-container {
     display: flex;
     width: 50%;
@@ -15,7 +19,7 @@
 }
 
 .nav-logo {
-    height: 6vh;
+    height: 8vh;
     width: auto;
     color: white;
     justify-content: center;
