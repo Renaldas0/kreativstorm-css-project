@@ -11,22 +11,17 @@
     background-color: #fff;
 }
 
-.contactHeader {
+.contact-header-container {
     background-color: #1f2937;
     color: white;
     height: 30%;
     width: 100%;
-    display: flex;
-    /* align-items: end; */
-    flex-direction: column;
-    padding-left: 150px;
-    z-index: 1;
 }
 
-.contactHeader h2 {
-    font-size: 50px;
-    padding-bottom: 30px;
-    margin: 30px;
+.contact-header-container h2 {
+    font-size: 48px;
+    margin-left: 14%;
+    margin-top: 70px;
 }
 
 .contactDetails {
