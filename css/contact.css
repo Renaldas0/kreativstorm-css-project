@@ -16,12 +16,32 @@
     color: white;
     height: 30%;
     width: 100%;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 50px;
+    z-index: 1;
+=======
+>>>>>>> 33674913a2522d170e6a3fe75d675b61b3488c70
+>>>>>>> Stashed changes
 }
 
 .contact-header-container h2 {
     font-size: 48px;
     margin-left: 14%;
     margin-top: 70px;
+<<<<<<< Updated upstream
+=======
+}
+
+.imgTeam{
+    width: 320px;
+    height: 300px; 
+    margin-top: 50px;
+>>>>>>> Stashed changes
 }
 
 .contactDetails {
