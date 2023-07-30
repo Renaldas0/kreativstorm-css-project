@@ -1,105 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    text-align: justify;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.navbar-primary-container {
-    display: flex;
-    width: 50%;
-    margin-left: 1.5%;
-}
-
-.nav-logo {
-    height: 8vh;
-    width: auto;
-    color: white;
-    justify-content: center;
-    margin-top: -3%;
-    box-shadow: 0px 0px 0px #fff;
-    transition: ease 0.5s;
-}
-
-.nav-logo:hover {
-    box-shadow: 0px 4px 1px -1px whitesmoke;
-    cursor: pointer;
-}
-
-.primary-text {
-    color: #f9faf8;
-}
-
-.secondary-text {
-    color: #e5e7eb;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1f2937;
-}
-
-main {
-    background-color: white;
-}
-
-header {
-    display: flex;
-    padding-top: 20px;
-    justify-content: space-between;
-}
-
-header h1 {
-    margin-left: 2%;
-}
-
-nav {
-    width: 30%;
-    margin-right: 1%;
-    padding-bottom: 30px;
-    margin-top: 0.5%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-nav a {
-    font-size: 18px;
-    transition: ease 0.5s;
-}
-
-nav a:hover {
-    box-shadow: 0px 4px 1px -1px whitesmoke;
-}
-
-.hero-section {
-    display: flex;
-    padding-top: 25px;
-    background-color: #1f2937;
-    padding-bottom: 80px;
-    justify-content: space-evenly;
-}
-
 h2 {
-    font-size: 50px
-}
-
-.btn-shadow:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 48px;
+    margin-left: 14%;
 }
 
 .project {
@@ -115,7 +16,7 @@ h2 {
     padding-right: 50px;
 }
 
-h3{
+h3 {
     font-size: 30px;
 }
 
@@ -136,13 +37,13 @@ p {
     padding-bottom: 40px;
 }
 
-#img-two{
+#img-two {
     margin-right: 100px;
     padding-right: 120px;
     padding-left: 0px;
 }
 
-#project-two{
+#project-two {
     background-color: #d9d9d9;
     margin: 100px;
     border-radius: 20px;
@@ -154,22 +55,6 @@ p {
     background-color: #3882f6;
     padding: 10px 30px;
     border-radius: 5px;
-}
-
-footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
-}
-
-footer a {
-    float: right;
-    border: 1px solid #e5e7eb;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 0 10px 10px;
-    color: #e5e7eb;
 }
 
 /* Dropdown Button */
