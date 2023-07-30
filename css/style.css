@@ -5,32 +5,10 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    text-align: justify;
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-.navbar-logo-container {
-    display: flex;
-    width: 50%;
-    margin-left: 2%;
-}
-
-.nav-logo {
-    height: 8vh;
-    width: auto;
-    color: white;
-    justify-content: center;
-    margin-top: -3%;
-    box-shadow: 0px 0px 0px #fff;
-    transition: ease 0.5s;
-}
-
-.nav-logo:hover {
-    box-shadow: 0px 4px 1px -1px whitesmoke;
-    cursor: pointer;
 }
 
 .primary-text {
@@ -52,13 +30,9 @@ header {
     justify-content: space-between;
 }
 
-header h1 {
-    margin-left: 2%;
-}
-
 nav {
-    width: 100%;
-    margin-right: 1%;
+    width: 30%;
+    margin-right: 11%;
     padding-bottom: 30px;
     margin-top: 0.5%;
 }
@@ -82,23 +56,63 @@ nav a:hover {
     box-shadow: 0px 4px 1px -1px whitesmoke;
 }
 
+.navbar-logo-container {
+    margin-left: 14%;
+}
+
+.nav-logo {
+    height: 8vh;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.nav-logo:hover {
+    box-shadow: 0px 4px 1px -1px whitesmoke;
+    cursor: pointer;
+}
+
 .hero-section {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
-    justify-content: space-around;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text-container {
+    width: 50%;
+    margin-left: 14%;
+}
+
+.hero-img-container {
+    max-width: 50%;
+    margin-right: 14%;
 }
 
 .hero-img {
-    max-width: 100%;
-    height: auto;
+    float: right;
+}
+
+.btn {
+    color: #f9faf8;
+    border: 1px solid #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .team-section {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #fff;
-    min-height: 400px;
 }
 
 .team-header {
@@ -108,24 +122,22 @@ nav a:hover {
 
 .team-card-container {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
 }
 
 .team-card {
-    width: 35vh;
-    height: 50vh;
+    width: 168px;
+    height: auto;
+    margin: 40px;
 }
 
 .member-img {
-    border: 3px solid #074ce0;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.hero-header {
-    font-size: 48px;
-    font-weight: 800;
+    width: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 #quote {
@@ -146,23 +158,6 @@ nav a:hover {
     color: #1f2937;
     width: 50%;
     font-style: italic;
-}
-
-nav {
-    width: 30%;
-}
-
-.btn {
-    color: #f9faf8;
-    border: 1px solid #e5e7eb;
-    background-color: #3882f6;
-    padding: 10px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-shadow:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .staff {
