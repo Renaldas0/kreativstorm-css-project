@@ -56,37 +56,3 @@ p {
     padding: 10px 30px;
     border-radius: 5px;
 }
-
-/* Dropdown Button */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.account-btn {
-    font-size: 18px;
-    transition: ease 0.5s;
-    background: none;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    font-size: 18px;
-    transition: ease 0.5s;
-    color: #e5e7eb;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
