@@ -62,8 +62,8 @@
     padding-left: 50px;
 }
 
-.contactInputs input {
-    border: #1f2937 1px solid;
+.contact-field {
+    border: #3882F6 1px solid;
     border-radius: 5px;
     background-color: #e5e7eb;
     height: 30px;
@@ -72,15 +72,10 @@
     margin-top: 20px;
     padding: 10px;
     font-size: 1rem;
-    transition: border-color 0.3s,
 }
 
-.contactInputs input:focus {
-    border: #3882F6 3px solid;
-}
-
-#message {
-    height: 200px;
+.contactForm textarea {
+    min-height: 200px;
 }
 
 #message::placeholder {
